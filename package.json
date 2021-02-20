@@ -1,0 +1,57 @@
+{
+  "name": "react-echarts-wrapper",
+  "version": "1.0.0",
+  "description": "React.js component wrap for ECharts.js",
+  "keywords": [
+    "echarts",
+    "library",
+    "react",
+    "react-echarts",
+    "react-echarts-wrapper"
+  ],
+  "homepage": "https://github.com/xlsdg/react-echarts-wrapper",
+  "bugs": {
+    "url": "https://github.com/xlsdg/react-echarts-wrapper/issues"
+  },
+  "license": "MIT",
+  "author": "xLsDg <xlsdg@qq.com> (https://xlsdg.org/)",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/wrapper.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlsdg/react-echarts-wrapper.git"
+  },
+  "scripts": {
+    "build": "bili",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish"
+  },
+  "dependencies": {
+    "element-resize-detector": "latest",
+    "lodash.throttle": "latest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "babel-eslint": "^10.1.0",
+    "bili": "^5.0.5",
+    "eslint": "^7.20.0",
+    "eslint-config-alloy": "^3.10.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "echarts": "latest",
+    "react": "latest"
+  },
+  "title": "react-echarts-wrapper"
+}
