@@ -1,39 +1,13 @@
 {
-  "name": "react-echarts-wrapper",
-  "version": "1.0.2",
-  "description": "React.js component wrap for ECharts.js",
-  "keywords": [
-    "echarts",
-    "library",
-    "react",
-    "react-echarts",
-    "react-echarts-wrapper"
-  ],
-  "homepage": "https://github.com/xlsdg/react-echarts-wrapper",
+  "author": "xLsDg <xlsdg@qq.com> (https://xlsdg.org/)",
   "bugs": {
     "url": "https://github.com/xlsdg/react-echarts-wrapper/issues"
-  },
-  "license": "MIT",
-  "author": "xLsDg <xlsdg@qq.com> (https://xlsdg.org/)",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "main": "dist/wrapper.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xlsdg/react-echarts-wrapper.git"
-  },
-  "scripts": {
-    "build": "bili",
-    "release:major": "npm version major && npm publish",
-    "release:minor": "npm version minor && npm publish",
-    "release:patch": "npm version patch && npm publish"
   },
   "dependencies": {
     "element-resize-detector": "latest",
     "lodash.throttle": "latest"
   },
+  "description": "React.js component wrap for ECharts.js",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -49,9 +23,35 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/xlsdg/react-echarts-wrapper",
+  "keywords": [
+    "echarts",
+    "library",
+    "react",
+    "react-echarts",
+    "react-echarts-wrapper"
+  ],
+  "license": "MIT",
+  "main": "dist/wrapper.min.js",
+  "name": "react-echarts-wrapper",
   "peerDependencies": {
     "echarts": "latest",
     "react": "latest"
   },
-  "title": "react-echarts-wrapper"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlsdg/react-echarts-wrapper.git"
+  },
+  "scripts": {
+    "build": "bili",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish"
+  },
+  "title": "react-echarts-wrapper",
+  "version": "1.0.2"
 }
