@@ -103,7 +103,7 @@ function wrapECharts(echarts, propsAreEqual) {
 
       const unbindEvents = [];
       for (const e in onEvents) {
-        if (Array.hasOwnProperty.call(onEvents, e)) {
+        if (Object.prototype.hasOwnProperty.call(onEvents, e)) {
           unbindEvents.push(bindEvent(e.toLowerCase(), onEvents[e]));
         }
       }
