@@ -103,7 +103,7 @@ yarn add echarts react-echarts-wrapper
     notMerge:     PropTypes.bool,
     lazyUpdate:   PropTypes.bool,
     loading:      PropTypes.bool,
-    optsLoading:  PropTypes.object,
+    loadingOpts:  PropTypes.object,
     resizable:    PropTypes.bool,
     onReady:      PropTypes.func,
     onResize:     PropTypes.func,

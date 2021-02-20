@@ -18,7 +18,7 @@ function wrapECharts(echarts, propsAreEqual) {
       notMerge,
       lazyUpdate,
       loading,
-      optsLoading,
+      loadingOpts,
       resizable,
       onReady,
       onResize,
@@ -131,11 +131,11 @@ function wrapECharts(echarts, propsAreEqual) {
       }
 
       if (loading) {
-        refInstance?.showLoading('default', optsLoading);
+        refInstance?.showLoading('default', loadingOpts);
       } else {
         refInstance?.hideLoading();
       }
-    }, [loading, optsLoading]);
+    }, [loading, loadingOpts]);
 
     // update
     React.useLayoutEffect(() => {
@@ -163,7 +163,7 @@ function wrapECharts(echarts, propsAreEqual) {
     // notMerge: PropTypes.bool,
     // lazyUpdate: PropTypes.bool,
     // loading: PropTypes.bool,
-    // optsLoading: PropTypes.object,
+    // loadingOpts: PropTypes.object,
     // resizable: PropTypes.bool,
     // onReady: PropTypes.func,
     // onResize: PropTypes.func,
